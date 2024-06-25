@@ -1,0 +1,18 @@
+nav {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+button.navbar-cart {
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ffc638;
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "name": "Product 1",
+        "description": "Description of Product 1",
+        "price": 19.99,
+        "category": "Electronics",
+        "stock": 100,
+        "reviews": [
+            {
+                "user": "Customer A",
+                "rating": 4,
+                "comment": "Great product, very satisfied."
+            },
+            {
+                "user": "Customer B",
+                "rating": 5,
+                "comment": "Excellent quality and fast delivery."
+            }
+        ],
+        "images": [
+            "https://example.com/product1-image1.jpg",
+            "https://example.com/product1-image2.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Product 2",
+        "description": "Description of Product 2",
+        "price": 29.99,
+        "category": "Electronics",
+        "stock": 200,
+        "reviews": [
+            {
+                "user": "Customer C",
+                "rating": 3,
+                "comment": "Average product."
+            },
+            {
+                "user": "Customer D",
+                "rating": 4,
+                "comment": "Good value for the price."
+            }
+        ],
+        "images": [
+            "https://example.com/product2-image1.jpg",
+            "https://example.com/product2-image2.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Product 3",
+        "description": "Description of Product 3",
+        "price": 39.99,
+        "category": "Home & Kitchen",
+        "stock": 150,
+        "reviews": [
+            {
+                "user": "Customer E",
+                "rating": 5,
+                "comment": "Excellent product, highly recommend."
+            },
+            {
+                "user": "Customer F",
+                "rating": 4,
+                "comment": "Very useful and well-made."
+            }
+        ],
+        "images": [
+            "https://example.com/product3-image1.jpg",
+            "https://example.com/product3-image2.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Product 4",
+        "description": "Description of Product 4",
+        "price": 49.99,
+        "category": "Sports",
+        "stock": 300,
+        "reviews": [
+            {
+                "user": "Customer G",
+                "rating": 2,
+                "comment": "Not what I expected."
+            },
+            {
+                "user": "Customer H",
+                "rating": 3,
+                "comment": "It's okay for the price."
+            }
+        ],
+        "images": [
+            "https://example.com/product4-image1.jpg",
+            "https://example.com/product4-image2.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Product 5",
+        "description": "Description of Product 5",
+        "price": 59.99,
+        "category": "Fashion",
+        "stock": 120,
+        "reviews": [
+            {
+                "user": "Customer I",
+                "rating": 5,
+                "comment": "Stylish and comfortable."
+            },
+            {
+                "user": "Customer J",
+                "rating": 4,
+                "comment": "Looks great, fits well."
+            }
+        ],
+        "images": [
+            "https://example.com/product5-image1.jpg",
+            "https://example.com/product5-image2.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Product 6",
+        "description": "Description of Product 6",
+        "price": 69.99,
+        "category": "Beauty",
+        "stock": 80,
+        "reviews": [
+            {
+                "user": "Customer K",
+                "rating": 5,
+                "comment": "Amazing product, very effective."
+            },
+            {
+                "user": "Customer L",
+                "rating": 4,
+                "comment": "Works well, will buy again."
+            }
+        ],
+        "images": [
+            "https://example.com/product6-image1.jpg",
+            "https://example.com/product6-image2.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Product 7",
+        "description": "Description of Product 7",
+        "price": 79.99,
+        "category": "Automotive",
+        "stock": 60,
+        "reviews": [
+            {
+                "user": "Customer M",
+                "rating": 4,
+                "comment": "Good quality, easy to use."
+            },
+            {
+                "user": "Customer N",
+                "rating": 5,
+                "comment": "Perfect for my needs."
+            }
+        ],
+        "images": [
+            "https://example.com/product7-image1.jpg",
+            "https://example.com/product7-image2.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Product 8",
+        "description": "Description of Product 8",
+        "price": 89.99,
+        "category": "Toys",
+        "stock": 250,
+        "reviews": [
+            {
+                "user": "Customer O",
+                "rating": 3,
+                "comment": "Kids love it, but quality could be better."
+            },
+            {
+                "user": "Customer P",
+                "rating": 4,
+                "comment": "Fun and entertaining."
+            }
+        ],
+        "images": [
+            "https://example.com/product8-image1.jpg",
+            "https://example.com/product8-image2.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Product 9",
+        "description": "Description of Product 9",
+        "price": 99.99,
+        "category": "Office Supplies",
+        "stock": 90,
+        "reviews": [
+            {
+                "user": "Customer Q",
+                "rating": 5,
+                "comment": "Very useful and high quality."
+            },
+            {
+                "user": "Customer R",
+                "rating": 4,
+                "comment": "Great for my office."
+            }
+        ],
+        "images": [
+            "https://example.com/product9-image1.jpg",
+            "https://example.com/product9-image2.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Product 10",
+        "description": "Description of Product 10",
+        "price": 109.99,
+        "category": "Books",
+        "stock": 500,
+        "reviews": [
+            {
+                "user": "Customer S",
+                "rating": 5,
+                "comment": "Must-read, very informative."
+            },
+            {
+                "user": "Customer T",
+                "rating": 4,
+                "comment": "Great book, learned a lot."
+            }
+        ],
+        "images": [
+            "https://example.com/product10-image1.jpg",
+            "https://example.com/product10-image2.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Product 11",
+        "description": "Description of Product 11",
+        "price": 119.99,
+        "category": "Electronics",
+        "stock": 110,
+        "reviews": [
+            {
+                "user": "Customer U",
+                "rating": 4,
+                "comment": "Very good, meets expectations."
+            },
+            {
+                "user": "Customer V",
+                "rating": 5,
+                "comment": "Outstanding quality, fast shipping."
+            }
+        ],
+        "images": [
+            "https://example.com/product11-image1.jpg",
+            "https://example.com/product11-image2.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Product 12",
+        "description": "Description of Product 12",
+        "price": 129.99,
+        "category": "Furniture",
+        "stock": 70,
+        "reviews": [
+            {
+                "user": "Customer W",
+                "rating": 3,
+                "comment": "Decent, but could be better."
+            },
+            {
+                "user": "Customer X",
+                "rating": 4,
+                "comment": "Nice design and sturdy."
+            }
+        ],
+        "images": [
+            "https://example.com/product12-image1.jpg",
+            "https://example.com/product12-image2.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Product 13",
+        "description": "Description of Product 13",
+        "price": 139.99,
+        "category": "Gardening",
+        "stock": 85,
+        "reviews": [
+            {
+                "user": "Customer Y",
+                "rating": 4,
+                "comment": "Works well, easy to use."
+            },
+            {
+                "user": "Customer Z",
+                "rating": 5,
+                "comment": "Highly recommend for gardeners."
+            }
+        ],
+        "images": [
+            "https://example.com/product13-image1.jpg",
+            "https://example.com/product13-image2.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Product 14",
+        "description": "Description of Product 14",
+        "price": 149.99,
+        "category": "Health & Wellness",
+        "stock": 45,
+        "reviews": [
+            {
+                "user": "Customer AA",
+                "rating": 4,
+                "comment": "Very effective, worth the price."
+            },
+            {
+                "user": "Customer BB",
+                "rating": 5,
+                "comment": "Excellent quality, very satisfied."
+            }
+        ],
+        "images": [
+            "https://example.com/product14-image1.jpg",
+            "https://example.com/product14-image2.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Product 15",
+        "description": "Description of Product 15",
+        "price": 159.99,
+        "category": "Pet Supplies",
+        "stock": 75,
+        "reviews": [
+            {
+                "user": "Customer CC",
+                "rating": 5,
+                "comment": "Pets love it, highly recommend."
+            },
+            {
+                "user": "Customer DD",
+                "rating": 4,
+                "comment": "Great quality and value."
+            }
+        ],
+        "images": [
+            "https://example.com/product15-image1.jpg",
+            "https://example.com/product15-image2.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Product 16",
+        "description": "Description of Product 16",
+        "price": 169.99,
+        "category": "Jewelry",
+        "stock": 30,
+        "reviews": [
+            {
+                "user": "Customer EE",
+                "rating": 4,
+                "comment": "Beautiful design, very elegant."
+            },
+            {
+                "user": "Customer FF",
+                "rating": 5,
+                "comment": "Absolutely love it, great quality."
+            }
+        ],
+        "images": [
+            "https://example.com/product16-image1.jpg",
+            "https://example.com/product16-image2.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Product 17",
+        "description": "Description of Product 17",
+        "price": 179.99,
+        "category": "Appliances",
+        "stock": 55,
+        "reviews": [
+            {
+                "user": "Customer GG",
+                "rating": 4,
+                "comment": "Very efficient, easy to use."
+            },
+            {
+                "user": "Customer HH",
+                "rating": 5,
+                "comment": "Highly recommend, worth every penny."
+            }
+        ],
+        "images": [
+            "https://example.com/product17-image1.jpg",
+            "https://example.com/product17-image2.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Product 18",
+        "description": "Description of Product 18",
+        "price": 189.99,
+        "category": "Outdoors",
+        "stock": 40,
+        "reviews": [
+            {
+                "user": "Customer II",
+                "rating": 4,
+                "comment": "Perfect for outdoor activities."
+            },
+            {
+                "user": "Customer JJ",
+                "rating": 5,
+                "comment": "Great quality, very durable."
+            }
+        ],
+        "images": [
+            "https://example.com/product18-image1.jpg",
+            "https://example.com/product18-image2.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Product 19",
+        "description": "Description of Product 19",
+        "price": 199.99,
+        "category": "Gaming",
+        "stock": 25,
+        "reviews": [
+            {
+                "user": "Customer KK",
+                "rating": 5,
+                "comment": "Amazing experience, highly recommend."
+            },
+            {
+                "user": "Customer LL",
+                "rating": 4,
+                "comment": "Great performance, worth the price."
+            }
+        ],
+        "images": [
+            "https://example.com/product19-image1.jpg",
+            "https://example.com/product19-image2.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Product 20",
+        "description": "Description of Product 20",
+        "price": 209.99,
+        "category": "Music",
+        "stock": 35,
+        "reviews": [
+            {
+                "user": "Customer MM",
+                "rating": 4,
+                "comment": "Excellent sound quality."
+            },
+            {
+                "user": "Customer NN",
+                "rating": 5,
+                "comment": "Best product in this category."
+            }
+        ],
+        "images": [
+            "https://example.com/product20-image1.jpg",
+            "https://example.com/product20-image2.jpg"
+        ]
+    }
+]

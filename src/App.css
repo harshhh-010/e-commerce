@@ -1,0 +1,50 @@
+/* Custom CSS for the Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important; /* Change color on hover */
+}
+
+.badge {
+  background-color: #ffcc00; /* Badge background color */
+  color: #343a40; /* Badge text color */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand, .nav-link {
+  margin: 0 10px;
+}
+
+.navbar-brand:hover {
+  color: #ffcc00 !important; /* Change color on hover */
+}
+.home-page{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.totalValue{
+  width: 200px;
+}
+.my-5 {
+  margin-top: 3rem!important;
+  margin-bottom: 3rem!important;
+  display: block;
+}

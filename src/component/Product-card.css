@@ -1,0 +1,45 @@
+
+.products .product-box {
+    padding: 15px;
+    border: 2px solid black;
+    margin: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.product-img{
+    height: 150px;
+    width: 100px;
+    object-fit: cover;
+}
+.card-title {
+    margin-bottom: 0px;
+    font-size: medium;
+    font-weight: 500;
+}
+.card-body {
+    margin-top: 20px;
+    padding: 0px !important;
+}
+.products .product-box p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    font-size: small;
+    color: darkgrey;
+}
+.products .product-box .buttons-style {
+    display: flex;
+    padding: 10px 0px;
+    gap: 15px;
+}
+.products .product-box .buttons-style Button {
+    border: none;
+    background-color: #ffc638;
+    border-radius: 20px;
+    padding: 10px;
+    width: 130px;
+    color: white;
+    font-weight: 700;
+    font-size: small;
+}
