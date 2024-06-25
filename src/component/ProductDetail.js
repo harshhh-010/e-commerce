@@ -11,10 +11,6 @@ import image from './first.jpg';
   const { id } = useParams(); 
   const dispatch = useDispatch();
   const product = useSelector(state => state.products.products.find(p => p.id === parseInt(id))); 
-  if (!product) {
-    return <p>Product not found</p>; 
-  }
-
   const handleAddToCart = () => {
     dispatch(addToCart(product));
   };
@@ -29,9 +25,11 @@ import image from './first.jpg';
           <h3>{product.name}</h3>
           <p className="product-description">{product.description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam aspernatur dignissimos perspiciatis eligendi incidunt itaque distinctio magni omnis voluptate, tenetur iste fugiat ab qui quasi necessitatibus minima est vitae!</p>
           <div className="price-section">
-            <h4 className="product-price">${product.price}</h4> <p className='stock'>In-Stock: {product.stock}</p>
+            <h4 className="product-price">${product.price}</h4>
+            {product.stock === 0 ? (<p>OUT OF STOCK</p>):(<p> IN STOCK : {product.stock}</p>)}
           </div>
-          <Button className='addToCart' onClick={handleAddToCart}>Add to Cart</Button>
+          {product.stock === 0 ? (<Button className='addToCart' disabled={true} onClick={handleAddToCart}>Add to Cart</Button>):(<Button className='addToCart' onClick={handleAddToCart}>Add to Cart</Button>)}
+          
           <hr />
           <Row className="reviews-section mt-5">
             <Col>
@@ -53,6 +51,6 @@ import image from './first.jpg';
       </Row>
     </Container>
   );
-};
+}
 
 export default ProductDetail;

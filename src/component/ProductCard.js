@@ -39,10 +39,12 @@ const ProductCard = ({ product }) => {
                                     <Card.Text>{product.description}</Card.Text> 
                                 </div>
                                     <Card.Text className='price'>${product.price}</Card.Text>
-                                <div className="buttons-style">
-                                    <Button className="cart" onClick={handleAddToCart}>Add To Cart</Button>
-                                    <Button className="buy" onClick={handleBuyNow}>Buy Now</Button>
-                                </div>
+                                {product.stock === 0 ? (<p>OUT OF STOCK</p>):(
+                                    <div className="buttons-style">
+                                        <Button className="cart" onClick={handleAddToCart}>Add To Cart</Button>
+                                        <Button className="buy" onClick={handleBuyNow}>Buy Now</Button>
+                                    </div>
+                                )}
                             </Card.Body>
                         </Card>
                     </div>

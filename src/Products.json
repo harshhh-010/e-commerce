@@ -5,7 +5,7 @@
         "description": "Description of Product 1",
         "price": 19.99,
         "category": "Electronics",
-        "stock": 100,
+        "stock": 20,
         "reviews": [
             {
                 "user": "Customer A",
@@ -29,7 +29,7 @@
         "description": "Description of Product 2",
         "price": 29.99,
         "category": "Electronics",
-        "stock": 200,
+        "stock": 0,
         "reviews": [
             {
                 "user": "Customer C",
