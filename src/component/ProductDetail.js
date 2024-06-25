@@ -31,7 +31,7 @@ import image from './first.jpg';
           <div className="price-section">
             <h4 className="product-price">${product.price}</h4> <p className='stock'>In-Stock: {product.stock}</p>
           </div>
-          <Button variant="primary" onClick={handleAddToCart}>Add to Cart</Button>
+          <Button className='addToCart' onClick={handleAddToCart}>Add to Cart</Button>
           <hr />
           <Row className="reviews-section mt-5">
             <Col>

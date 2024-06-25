@@ -17,13 +17,19 @@ const App = () => {
       <div className="App">
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand as={Link} to="/">E-Commerce</Navbar.Brand>
-            <Nav className="me-auto">
+            <div className='left'>
+              <Navbar.Brand as={Link} to="/">E-Commerce</Navbar.Brand>
+              <Nav className="me-auto">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
+              </Nav>
+            </div>
+            <div className='right'>
               <Nav.Link as={Link} to="/checkout">
               <FontAwesomeIcon className='cart-icon' icon={faCartShopping} /> {totalQuantity > 0 && <Badge bg="secondary">{totalQuantity}</Badge>}
               </Nav.Link>
-            </Nav>
+            </div>
+              
+            
           </Container>
         </Navbar>
         <Routes>

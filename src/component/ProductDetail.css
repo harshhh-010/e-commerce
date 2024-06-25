@@ -1,10 +1,12 @@
+
 .product-detail-container {
     padding: 20px;
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    color: white;
   }
-  
   .product-image {
     border-radius: 8px;
   }
@@ -27,7 +29,7 @@
   .product-price {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #007bff;
+    color: #ffc638;
     margin-bottom: 20px;
   }
   .price-section{
@@ -38,18 +40,14 @@
   .price-section .stock{
     font-weight: 600
   }
-  
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
+  .addToCart{
+    background-color: #ffc638 !important;
+    border: #ffc638 !important;
+    color: black !important;
+    font-weight: 600 !important;
   }
   .review{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 20px;

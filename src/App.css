@@ -3,7 +3,10 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
-
+.left{
+  display: flex;
+  width: 1000px;
+}
 .navbar {
   background-color: black;
 }
@@ -50,5 +53,4 @@
 }
 .cart-icon{
   font-size: 20px;
-  margin-left: 950px;
 }
