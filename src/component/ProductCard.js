@@ -20,6 +20,11 @@ const ProductCard = ({ product }) => {
   const handleProductClick = () => {
     navigate(`/product/${product.id}`);
   };
+  const handleBuyNow = (e) => {
+    handleAddToCart(e)
+    navigate(`/checkout`);
+  };
+
 
     return (
         <div className="container col-3">
@@ -36,7 +41,7 @@ const ProductCard = ({ product }) => {
                                     <Card.Text className='price'>${product.price}</Card.Text>
                                 <div className="buttons-style">
                                     <Button className="cart" onClick={handleAddToCart}>Add To Cart</Button>
-                                    <Button className="buy" onClick={handleAddToCart}>Buy Now</Button>
+                                    <Button className="buy" onClick={handleBuyNow}>Buy Now</Button>
                                 </div>
                             </Card.Body>
                         </Card>
