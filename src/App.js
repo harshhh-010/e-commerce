@@ -6,6 +6,8 @@ import CheckoutPage from './pages/CheckoutPage';
 import { Navbar, Nav, Container, Badge } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
 const App = () => {
   const totalQuantity = useSelector(state => state.cart.totalQuantity);
@@ -19,7 +21,7 @@ const App = () => {
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/checkout">
-                Checkout {totalQuantity > 0 && <Badge bg="secondary">{totalQuantity}</Badge>}
+              <FontAwesomeIcon className='cart-icon' icon={faCartShopping} /> {totalQuantity > 0 && <Badge bg="secondary">{totalQuantity}</Badge>}
               </Nav.Link>
             </Nav>
           </Container>
